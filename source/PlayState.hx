@@ -7,7 +7,7 @@ class PlayState extends FlxState
 {
 	override public function create()
 	{
-		var text = new FlxText(275, 250, 100, "Hello from the other side!");
+		var text = new FlxText(275, 225, 100, "Hello from the other side!");
 		add(text);
 		super.create();
 	}
