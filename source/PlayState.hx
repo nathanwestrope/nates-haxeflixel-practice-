@@ -11,7 +11,6 @@ class PlayState extends FlxState
 		super.create();
 		var text = new FlxText(0, 0, 0, "Hello from the other side!", 25, true);
 		text.screenCenter();
-		this.color
 		add(text);
 
 		for (i in 0...15)
